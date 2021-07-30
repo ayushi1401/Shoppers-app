@@ -11,11 +11,11 @@ class Product extends Component {
   render() {
     const { id, title, image, price, inCart } = this.props.product;
     return (
-      <ProductWrapper className="col-9 mx-auto col-md-6 col-lg-3 my-3">
+      <ProductWrapper className="col-7 mx-auto col-md-6 col-lg-3 my-3">
         <div className="card">
           <ProductConsumer>
             {(value=> (
-              <div className="img-container p-5" onClick={value.handleDetail(id)}>
+              <div className="img-container p-3" onClick={value.handleDetail(id)}>
                 <Link to='/details'>
                   <img src={image} alt="product img" className="card-img-top"/>
                 </Link>

@@ -20,14 +20,14 @@ export default class Details extends Component {
                 </div>
               </div>
               <div className="row">
-                <div className="col-10 mx-auto col-md-6 my-3 ">
+                <div className="col-8 mx-auto col-md-4 my-3 ">
                   <img src={image} alt="product" className="img-fluid"/>
                 </div>
                 <div className="col-10 mx-auto col-md-6 my-3 text-capitalized">
                   <h2>
                     Model: {title}
                   </h2>
-                  <h4 className="text-uppercase text-title text-muted mt-3 mb-2">
+                  <h4 className="text-uppercase ">
                     Catergory:  
                     <span className="test-uppercase">{category}</span>
                   </h4>

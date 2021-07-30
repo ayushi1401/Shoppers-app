@@ -2,11 +2,11 @@ import styled from 'styled-components';
 
 const ButtonContainer = styled.button`
   text-transform: capitalize;
-  font-size: 20px;
-  background: transparent;
-  border: 5px solid var(--lightBlue);
-  color: ${props => props.cart ?  "var(--mainYellow)":"var(--lightBlue)"};
-  border-radius: 5px;
+  font-size: 16px;
+  background: transparent;x
+  border: 2px solid var(--mainWhite);
+  color: ${props => props.cart ?  "var(--mainYellow)":"var(--mainBlue)"};
+  border-radius: 10px;
   padding: 5px 10px;
   cursor: pointer;
   margin: 5px 10px 5px 0px;
